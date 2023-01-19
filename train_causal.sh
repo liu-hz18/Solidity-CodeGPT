@@ -1,0 +1,1 @@
+python train_causal.py --expname codegen350m-exp1 --epoch 6 --train_bsz 32 --eval_bsz 64 --gradient_accumulation_steps 4 --trainset ./data-json/train.jsonl --testset ./data-json/test.jsonl --backbone Salesforce/codegen-350M-multi
